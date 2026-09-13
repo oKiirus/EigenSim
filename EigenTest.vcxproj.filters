@@ -75,141 +75,141 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ObjectAttributes.cpp">
+    <ClCompile Include="src\ObjectAttributes.cpp">
       <Filter>Source Files\Objects\CodeObjects</Filter>
     </ClCompile>
-    <ClCompile Include="Body.cpp">
+    <ClCompile Include="src\Body.cpp">
       <Filter>Source Files\Objects\PhysicalObjects</Filter>
     </ClCompile>
-    <ClCompile Include="Renderable.cpp">
+    <ClCompile Include="src\Renderable.cpp">
       <Filter>Source Files\Render</Filter>
     </ClCompile>
-    <ClCompile Include="Circle.cpp">
+    <ClCompile Include="src\Circle.cpp">
       <Filter>Source Files\Render</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
+    <ClCompile Include="src\Scene.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
+    <ClCompile Include="src\Camera.cpp">
       <Filter>Source Files\Render</Filter>
     </ClCompile>
-    <ClCompile Include="ODESolver.cpp">
+    <ClCompile Include="src\ODESolver.cpp">
       <Filter>Source Files\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="System.cpp">
+    <ClCompile Include="src\System.cpp">
       <Filter>Source Files\Objects\CodeObjects</Filter>
     </ClCompile>
-    <ClCompile Include="Particle.cpp">
+    <ClCompile Include="src\Particle.cpp">
       <Filter>Source Files\Objects\PhysicalObjects</Filter>
     </ClCompile>
-    <ClCompile Include="Bond.cpp">
+    <ClCompile Include="src\Bond.cpp">
       <Filter>Source Files\Objects\PhysicalObjects</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleSolver.cpp">
+    <ClCompile Include="src\SimpleSolver.cpp">
       <Filter>Source Files\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Arrow.cpp">
+    <ClCompile Include="src\Arrow.cpp">
       <Filter>Source Files\Objects\MathObject</Filter>
     </ClCompile>
-    <ClCompile Include="State.cpp">
+    <ClCompile Include="src\State.cpp">
       <Filter>Source Files\Objects\MathObject</Filter>
     </ClCompile>
-    <ClCompile Include="Tickable.cpp">
+    <ClCompile Include="src\Tickable.cpp">
       <Filter>Source Files\Objects\CodeObjects</Filter>
     </ClCompile>
-    <ClCompile Include="GravitationalForce.cpp">
+    <ClCompile Include="src\GravitationalForce.cpp">
       <Filter>Source Files\Objects\PhysicalObjects\Bonds</Filter>
     </ClCompile>
-    <ClCompile Include="Pen.cpp">
+    <ClCompile Include="src\Pen.cpp">
       <Filter>Source Files\Visuals</Filter>
     </ClCompile>
-    <ClCompile Include="ElectricForce.cpp">
+    <ClCompile Include="src\ElectricForce.cpp">
       <Filter>Source Files\Objects\PhysicalObjects\Bonds</Filter>
     </ClCompile>
-    <ClCompile Include="DistanceConstraint.cpp">
+    <ClCompile Include="src\DistanceConstraint.cpp">
       <Filter>Source Files\Objects\PhysicalObjects\Constraints</Filter>
     </ClCompile>
-    <ClCompile Include="Animal.cpp">
+    <ClCompile Include="src\Animal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Funcs.cpp">
+    <ClCompile Include="src\Funcs.cpp">
       <Filter>Source Files\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="ClampConstraint.cpp">
+    <ClCompile Include="src\ClampConstraint.cpp">
       <Filter>Source Files\Objects\PhysicalObjects\Constraints</Filter>
     </ClCompile>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="src\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Body.h">
+    <ClInclude Include="src\Body.h">
       <Filter>Header Files\Objects\PhysicalObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Circle.h">
+    <ClInclude Include="src\Circle.h">
       <Filter>Header Files\Render</Filter>
     </ClInclude>
-    <ClInclude Include="ObjectAttributes.h">
+    <ClInclude Include="src\ObjectAttributes.h">
       <Filter>Header Files\Objects\CodeObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Renderable.h">
+    <ClInclude Include="src\Renderable.h">
       <Filter>Header Files\Render</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
+    <ClInclude Include="src\Scene.h">
       <Filter>Header Files\Main</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="src\Camera.h">
       <Filter>Header Files\Render</Filter>
     </ClInclude>
-    <ClInclude Include="ODESolver.h">
+    <ClInclude Include="src\ODESolver.h">
       <Filter>Header Files\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="System.h">
+    <ClInclude Include="src\System.h">
       <Filter>Header Files\Objects\CodeObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Particle.h">
+    <ClInclude Include="src\Particle.h">
       <Filter>Header Files\Objects\PhysicalObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Bond.h">
+    <ClInclude Include="src\Bond.h">
       <Filter>Header Files\Objects\PhysicalObjects</Filter>
     </ClInclude>
-    <ClInclude Include="SimpleSolver.h">
+    <ClInclude Include="src\SimpleSolver.h">
       <Filter>Header Files\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="State.h">
+    <ClInclude Include="src\State.h">
       <Filter>Header Files\Objects\MathObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Arrow.h">
+    <ClInclude Include="src\Arrow.h">
       <Filter>Header Files\Objects\MathObjects</Filter>
     </ClInclude>
-    <ClInclude Include="Tickable.h">
+    <ClInclude Include="src\Tickable.h">
       <Filter>Header Files\Objects\CodeObjects</Filter>
     </ClInclude>
-    <ClInclude Include="GravitationalForce.h">
+    <ClInclude Include="src\GravitationalForce.h">
       <Filter>Header Files\Objects\PhysicalObjects\Bonds</Filter>
     </ClInclude>
-    <ClInclude Include="Pen.h">
+    <ClInclude Include="src\Pen.h">
       <Filter>Header Files\Visuals</Filter>
     </ClInclude>
-    <ClInclude Include="ElectricForce.h">
+    <ClInclude Include="src\ElectricForce.h">
       <Filter>Header Files\Objects\PhysicalObjects\Bonds</Filter>
     </ClInclude>
-    <ClInclude Include="DistanceConstraint.h">
+    <ClInclude Include="src\DistanceConstraint.h">
       <Filter>Header Files\Objects\PhysicalObjects\Constraint</Filter>
     </ClInclude>
-    <ClInclude Include="Animal.h">
+    <ClInclude Include="src\Animal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Funcs.h">
+    <ClInclude Include="src\Funcs.h">
       <Filter>Header Files\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="ClampConstraint.h">
+    <ClInclude Include="src\ClampConstraint.h">
       <Filter>Header Files\Objects\PhysicalObjects\Constraint</Filter>
     </ClInclude>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="src\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

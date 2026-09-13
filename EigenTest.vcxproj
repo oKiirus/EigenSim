@@ -19,53 +19,53 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Animal.cpp" />
-    <ClCompile Include="Body.cpp" />
-    <ClCompile Include="Bond.cpp" />
-    <ClCompile Include="ClampConstraint.cpp" />
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="DistanceConstraint.cpp" />
-    <ClCompile Include="ElectricForce.cpp" />
-    <ClCompile Include="GravitationalForce.cpp" />
-    <ClCompile Include="ObjectAttributes.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="ODESolver.cpp" />
-    <ClCompile Include="Particle.cpp" />
-    <ClCompile Include="Pen.cpp" />
-    <ClCompile Include="Funcs.cpp" />
-    <ClCompile Include="SimpleSolver.cpp" />
-    <ClCompile Include="State.cpp" />
-    <ClCompile Include="Renderable.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="System.cpp" />
-    <ClCompile Include="Arrow.cpp" />
-    <ClCompile Include="Tickable.cpp" />
+    <ClCompile Include="src\Animal.cpp" />
+    <ClCompile Include="src\Body.cpp" />
+    <ClCompile Include="src\Bond.cpp" />
+    <ClCompile Include="src\ClampConstraint.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\DistanceConstraint.cpp" />
+    <ClCompile Include="src\ElectricForce.cpp" />
+    <ClCompile Include="src\GravitationalForce.cpp" />
+    <ClCompile Include="src\ObjectAttributes.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Circle.cpp" />
+    <ClCompile Include="src\ODESolver.cpp" />
+    <ClCompile Include="src\Particle.cpp" />
+    <ClCompile Include="src\Pen.cpp" />
+    <ClCompile Include="src\Funcs.cpp" />
+    <ClCompile Include="src\SimpleSolver.cpp" />
+    <ClCompile Include="src\State.cpp" />
+    <ClCompile Include="src\Renderable.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\System.cpp" />
+    <ClCompile Include="src\Arrow.cpp" />
+    <ClCompile Include="src\Tickable.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animal.h" />
-    <ClInclude Include="Body.h" />
-    <ClInclude Include="Bond.h" />
-    <ClInclude Include="ClampConstraint.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="DistanceConstraint.h" />
-    <ClInclude Include="ElectricForce.h" />
-    <ClInclude Include="GravitationalForce.h" />
-    <ClInclude Include="ObjectAttributes.h" />
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="ODESolver.h" />
-    <ClInclude Include="Particle.h" />
-    <ClInclude Include="Pen.h" />
-    <ClInclude Include="Funcs.h" />
-    <ClInclude Include="SimpleSolver.h" />
-    <ClInclude Include="State.h" />
-    <ClInclude Include="Renderable.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="System.h" />
-    <ClInclude Include="Arrow.h" />
-    <ClInclude Include="Tickable.h" />
+    <ClInclude Include="src\Animal.h" />
+    <ClInclude Include="src\Body.h" />
+    <ClInclude Include="src\Bond.h" />
+    <ClInclude Include="src\ClampConstraint.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\DistanceConstraint.h" />
+    <ClInclude Include="src\ElectricForce.h" />
+    <ClInclude Include="src\GravitationalForce.h" />
+    <ClInclude Include="src\ObjectAttributes.h" />
+    <ClInclude Include="src\Circle.h" />
+    <ClInclude Include="src\ODESolver.h" />
+    <ClInclude Include="src\Particle.h" />
+    <ClInclude Include="src\Pen.h" />
+    <ClInclude Include="src\Funcs.h" />
+    <ClInclude Include="src\SimpleSolver.h" />
+    <ClInclude Include="src\State.h" />
+    <ClInclude Include="src\Renderable.h" />
+    <ClInclude Include="src\Scene.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\System.h" />
+    <ClInclude Include="src\Arrow.h" />
+    <ClInclude Include="src\Tickable.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
@@ -73,7 +73,7 @@
     <ProjectGuid>{45e143ce-ec7e-4334-b870-90891e5a52c9}</ProjectGuid>
     <RootNamespace>EigenTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Main</ProjectName>
+    <ProjectName>MainProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,7 +155,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\_Tools\Coding\vcpkgFolder\packages\sfml_x64-windows\include;D:\_Tools\Coding\CPPLibrarys\eigen-5.0.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\_Tools\Coding\vcpkgFolder\packages\sfml_x64-windows\include;D:\_Tools\Coding\CPPLibrarys\eigen-5.0.0;%(AdditionalIncludeDirectories);$(SolutionDir)Render\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -173,7 +173,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\_Tools\Coding\vcpkgFolder\packages\sfml_x64-windows\include;D:\_Tools\Coding\CPPLibrarys\eigen-5.0.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\_Tools\Coding\vcpkgFolder\packages\sfml_x64-windows\include;D:\_Tools\Coding\CPPLibrarys\eigen-5.0.0;%(AdditionalIncludeDirectories);$(SolutionDir)Render\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

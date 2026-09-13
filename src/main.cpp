@@ -115,6 +115,8 @@ int main()
         //std::cout << (PF::ME(&A) + PF::ME(&B)) << "\n";
 
         window.display();
+
+        render::printHello();
     }
 
 }

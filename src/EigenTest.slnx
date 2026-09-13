@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../Render/Render.vcxproj" Id="cd75e171-bd02-46c3-99df-dc1f40dd0722" />
   <Project Path="EigenTest.vcxproj" Id="45e143ce-ec7e-4334-b870-90891e5a52c9" />
 </Solution>
