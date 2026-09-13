@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{827a7406-00b1-46ed-a131-fa289cbaa65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{c295e658-b308-454e-ae7a-89616a22755c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{e86d4e96-5777-4d46-8151-7e235c777470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{d65ce9e4-b0da-4cd9-b0db-f11d838b8665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{201fe5b5-c470-4fb2-b639-cd945743a45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{6fb80cb6-ed7f-483c-8749-a5954efa896c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visuals">
+      <UniqueIdentifier>{6b334ed2-6ef3-47bb-8e76-099e0ff4e80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{f496879f-5e26-4e7c-bd48-7d0c397cfb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visuals">
+      <UniqueIdentifier>{27fec074-4612-4832-b3ab-936733defd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\CodeObjects">
+      <UniqueIdentifier>{d2af6962-32e2-4f85-bdea-04efd4e19ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\MathObjects">
+      <UniqueIdentifier>{1233f08b-07a2-4901-b921-d53896cc4aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\PhysicalObjects">
+      <UniqueIdentifier>{d70c3803-50da-4c5d-b6a8-920adbc833d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\PhysicalObjects\Bonds">
+      <UniqueIdentifier>{5585f1f3-087e-41b7-8d0b-2d53dd2031ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{e17f8090-9ce6-4f7f-b94c-dd4526460c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\PhysicalObjects">
+      <UniqueIdentifier>{0157d74c-3191-4185-8364-5a41036dbb11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\PhysicalObjects\Bonds">
+      <UniqueIdentifier>{6181067b-91e5-4f16-ad6b-b94251375387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\CodeObjects">
+      <UniqueIdentifier>{bbd58dc2-c42d-4116-910c-37ae0d0aa574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\MathObject">
+      <UniqueIdentifier>{f5b5adb7-1d72-4fd4-8e6f-ffcdd3cff2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\PhysicalObjects\Constraints">
+      <UniqueIdentifier>{395c52e1-6082-4b8f-b9aa-90ae8401bd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\PhysicalObjects\Constraint">
+      <UniqueIdentifier>{2e153b3e-0529-456d-9ef3-f031c2299571}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ObjectAttributes.cpp">
+      <Filter>Source Files\Objects\CodeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ODESolver.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Objects\CodeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bond.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSolver.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Source Files\Objects\MathObject</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Objects\MathObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Tickable.cpp">
+      <Filter>Source Files\Objects\CodeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GravitationalForce.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects\Bonds</Filter>
+    </ClCompile>
+    <ClCompile Include="Pen.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricForce.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects\Bonds</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceConstraint.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Funcs.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ClampConstraint.cpp">
+      <Filter>Source Files\Objects\PhysicalObjects\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h">
+      <Filter>Header Files\Objects\PhysicalObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectAttributes.h">
+      <Filter>Header Files\Objects\CodeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ODESolver.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Objects\CodeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Objects\PhysicalObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bond.h">
+      <Filter>Header Files\Objects\PhysicalObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSolver.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Objects\MathObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Header Files\Objects\MathObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tickable.h">
+      <Filter>Header Files\Objects\CodeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GravitationalForce.h">
+      <Filter>Header Files\Objects\PhysicalObjects\Bonds</Filter>
+    </ClInclude>
+    <ClInclude Include="Pen.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricForce.h">
+      <Filter>Header Files\Objects\PhysicalObjects\Bonds</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceConstraint.h">
+      <Filter>Header Files\Objects\PhysicalObjects\Constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Funcs.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ClampConstraint.h">
+      <Filter>Header Files\Objects\PhysicalObjects\Constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
